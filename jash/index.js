@@ -604,8 +604,7 @@ setTimeout(()=>{ctx.replyWithMarkdown("*➕ Investment Accrual:* +"+get+" TRX")
     
       
 
-  var gett = parseFloat(bal[0].balance) + parseFloat(get) ;
-db.collection('balance').updateOne({ userId: ctx.from.id }, { $set: { balance: gett } }, { upsert: true });
+db.collection('balance').updateOne({ userId: ctx.from.id }, { $set: { balance: parseFloat(get) } }, { upsert: true });
                }, 24 * 60 * 60 * 1000);
 
     ctx.reply(`<b>✅ New Investment Started in Bot</b>
