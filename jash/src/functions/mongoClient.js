@@ -3,4 +3,4 @@ const env = require('../env')
 const client = new MongoClient(env.mongoLink);
 
 exports.connect = () => client.connect();
-exports.db = client.db("ABot");
+exports.db = client.db("ABot"+env.bot_token.split(":")[0]);
