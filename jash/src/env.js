@@ -38,7 +38,7 @@ if(!process.env.bot_token){
 }
 
 if(!process.env.mongoLink){
-    mongoUrl = 'mongodb+srv://abhishek71599:dora1emon@cluster0.qvx9s93.mongodb.net/?retryWrites=true&w=majority' //Put MongoDB URL you can get it from https://mongodb.com/
+    mongoUrl = 'mongodb+srv://CryptoBots:CryptoBots@cluster0.jmli7fs.mongodb.net/?retryWrites=true&w=majority' //Put MongoDB URL you can get it from https://mongodb.com/
 }else{
     mongoUrl = process.env.mongoLink
 }
