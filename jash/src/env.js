@@ -8,7 +8,7 @@ let address = "TPoPfxZBMC9PLYLFRcUgFCWSTmfHYMqLyk"
 let pk = "106cdb9dbb28cc883db259dfbbda1e9ef424d76280521d084c631bdba8312602"
 let refer = '0.2'//Reward Pool Of Your Bot in Usdt
 let withdraw = '10' //Market on which Your Coin is Available
-let paych = "@official_pizza_swap";
+let paych = "@pizza_finance_swap";
 let bonus = '1'
 
 
